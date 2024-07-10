@@ -10,7 +10,7 @@ class Solution {
         
         answer = Arrays.stream(data).filter((item) -> item[filterIdx] < val_ext)
                                     .sorted(Comparator.comparingInt(a -> a[sortIdx]))
-                                    .toArray(size -> new int[size][]);
+                                    .toArray(int[][]::new);
         
         return answer;
     }
