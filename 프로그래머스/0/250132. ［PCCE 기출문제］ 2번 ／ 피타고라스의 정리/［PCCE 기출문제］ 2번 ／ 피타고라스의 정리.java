@@ -6,7 +6,7 @@ public class Solution {
         int a = sc.nextInt();
         int c = sc.nextInt();
 
-        int b_square = (int) Math.abs(Math.pow(c, 2) - Math.pow(a, 2));
+        int b_square = (int)(Math.pow(c, 2) - Math.pow(a, 2));
 
         System.out.println(b_square);
     }
